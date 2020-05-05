@@ -1,0 +1,56 @@
+
+{"Plugs":[{"Id":"123ABC",
+    "Plug Type": "Female",
+    "DateTemperatureChecked":["April/05","April/07","April/15"],
+    "Temperatures":[25,20,50],
+    "InsertTemperature": 20,
+    "Load": 30,
+    "Capped": "true",
+    "Locked": "true",
+    "Connected": "false",
+    "Contamination": "Water Ingress"
+    },
+    {"Id":"156DFG",
+        "Plug Type": "Female",
+        "DateTemperatureChecked":["April/06","April/012","April/17"],
+        "Temperatures":[20,35,15],
+        "InsertTemperature": 40,
+        "Load": 30,
+        "Capped": "true",
+        "Locked": "false",
+        "Connected": "true",
+        "Contamination": "NO"
+        },
+    {"Id":"789HIJ",
+        "Plug Type": "Female",
+        "DateTemperatureChecked":["March/01","March/12","March/17","March/31","April/07"],
+        "Temperatures":[20,35,15,44,32],
+        "InsertTemperature": 65,
+        "Load": 40,
+        "Capped": "true",
+        "Locked": "true",
+        "Connected": "true",
+        "Contamination": "NO"
+        }],
+"Panel":[{
+    "Id": "125ABC",
+    "NumberOfPlugs": 2,
+    "Plugs": [ "123ABC", "456EFG" ],
+    "ControllerTemperature": 20 ,
+    "Location":{
+       "Long":"39.634950",
+       "Lat":"-104.930400"
+    },
+    "CommunicationStatus": " " ,
+    "FaultStatus": " " 
+}],
+"Company":
+[{
+    "Message":"This company may buy more plugs",
+    "CompanyId": 123,
+    "CompanyName":"simer Corp.",
+    "NumberOfPanels": 3,
+    "Users": [ 393117, 253678, 289109 ] ,
+    "Panels": [ "825ABC", "333GHF", "647HDS"]
+}]
+}
