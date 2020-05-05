@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "898117350161",
+    "firebase_url": "https://yyc-car-rental-app.firebaseio.com",
+    "project_id": "yyc-car-rental-app",
+    "storage_bucket": "yyc-car-rental-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:898117350161:android:2c96797357bd6890a1d2b0",
+        "android_client_info": {
+          "package_name": "com.example.yyc_car_rental_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "898117350161-r2mrmtq2ojhpnehcqmlqjbkv17euc9tt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA0dN1QIY1m85kin21Bbeb489nkHHIBZNA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "898117350161-r2mrmtq2ojhpnehcqmlqjbkv17euc9tt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
