@@ -1,0 +1,69 @@
+
+.hero-container{
+    
+
+   background: #C6FFDD;  /* fallback for old browsers */
+      background: -webkit-linear-gradient(to right, #f7797d, #FBD786, #C6FFDD);  /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #f7797d, #FBD786, #C6FFDD); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);  */
+    object-fit: contain;
+}
+
+.flex > h1{
+    text-align: center;
+    color: #fff;
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+
+.flex > p {
+
+  margin-top: 8px;
+  color: #fff;
+  font-size: 32px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+
+.hero-btns{
+    
+    margin-top: 0px;
+    
+}
+
+.hero-btns .btn{
+
+ margin:6px;
+
+}
+
+.fa-play-circle{
+
+    margin-left: 4px;
+}
+
+@media screen and (max-width: 960px){
+
+    .hero-container >h1{
+        font-size: 70px;
+        margin-top: -15px;
+    }
+}
+
+@media screen and (max-width: 768px){
+
+    .hero-container >h1{
+        font-size: 50px;
+        margin-top: -100px;
+    }
+}
+

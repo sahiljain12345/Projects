@@ -1,0 +1,65 @@
+.landing-grid{
+    
+ margin: 100px;   
+ height: 100vh;
+ flex-direction: row;
+ justify-content:space-around;
+ display: flex;
+ object-fit: contain;
+}
+
+.about-me h1{
+ 
+     margin: 10px;
+     text-align: center;
+     padding-top: 20px;
+
+   }
+
+.banner-text{
+
+   background-color: black;
+   opacity: .8;
+   width: 30%;
+   border-radius: 10px;
+
+
+}
+
+.banner-text h1{
+
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+}
+
+.banner-text hr {
+   
+    border-top: 5px dotted white ;
+    width: 50%;
+    margin: auto;
+
+}
+
+
+.banner-text p {
+
+   color: white;
+   font-size: 14px;
+   padding: 1em;
+
+}
+
+.container-key {
+
+  
+    margin: 100px;   
+    height: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    display: flex;
+    object-fit: contain;
+    flex-wrap: wrap;
+
+
+}
